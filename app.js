@@ -46,7 +46,8 @@ var createNewTaskElement=function(taskString){
     deleteButton.className="delete";
     deleteButtonImg.src='./remove.svg';
     deleteButton.appendChild(deleteButtonImg);
-
+    
+    listItem.className = "task-wrapper";
 
     //and appending.
     listItem.appendChild(checkBox);
